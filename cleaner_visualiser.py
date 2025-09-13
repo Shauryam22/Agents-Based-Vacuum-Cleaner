@@ -178,7 +178,7 @@ class Learning_agent:
         # Store this experience in knowledge
         self.knowledge[percept] = action
         return action
-def simulate(agent,step=10):
+def simulate(agent,step=10):   # can put higher step size, but iterations will automatically stop once all clear. 
     env = environment()
     for step in range(step):
         percept = env.get_states()
@@ -204,3 +204,4 @@ print('Learning-based-----------------------')
 simulate(Learning_agent())
 print()
 print()
+
