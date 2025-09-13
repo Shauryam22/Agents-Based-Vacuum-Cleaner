@@ -96,14 +96,14 @@ class environment:
             else:
                 self.perf_meas+=10
             self.perf_meas-=1
-            print('Drid',self.grid1)
+            print('Grid',self.grid1)
         elif action == 'move':
             m,n = self.get_neighbour()
             self.current_state = self.grid1[m][n]
             self.current_state1 = self.grid2[m][n]
             print('The next chosen state: ',self.current_state)
             print('The next chosen position: ',self.current_state1)
-            print('Drid: ',self.grid1)
+            print('Grid: ',self.grid1)
             if self.current_state=='C':
                 self.perf_meas-=5
             else:
@@ -134,7 +134,7 @@ class Model_based:
             return 'move'
         return 'move'
 
-class Doal_based_agent:
+class Goal_based_agent:
     def __init__(self,goal='C'):
         self.goal = goal
     def act(self,percept):
@@ -190,18 +190,25 @@ def simulate(agent,step=10):   # can put higher step size, but iterations will a
         else:
             print('ALL CLEAN')
             break
+print('----------------------Simple-Reflex---------------------------')
 simulate(Simple_reflex())
 print()
-simulate(Model_based())
-print('Doal-Based---------------------------')
-simulate(Doal_based_agent())
-
 print()
-print('Utility-based-----------------------')
+print('-----------------------Model-Based-----------------------------')
+simulate(Model_based())
+print()
+print()
+print('------------------------Goal-Based---------------------------')
+simulate(Goal_based_agent())
+print()
+print()
+print('------------------------Utility-based-----------------------')
 simulate(utility_based_agent())
+print()
 print()
 print('Learning-based-----------------------')
 simulate(Learning_agent())
 print()
 print()
+
 
