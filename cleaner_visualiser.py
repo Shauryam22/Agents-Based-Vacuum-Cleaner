@@ -206,9 +206,10 @@ print('------------------------Utility-based-----------------------')
 simulate(utility_based_agent())
 print()
 print()
-print('Learning-based-----------------------')
+print('------------------------Learning-based-----------------------')
 simulate(Learning_agent())
 print()
 print()
+
 
 
