@@ -2,7 +2,7 @@
 
 This project simulates different types of **AI agents** in a simple **grid-based environment** where the agent must clean dirty cells (`D`), avoid walls (`#`), and try to maximize performance.  
 
-The code demonstrates concepts from **Artificial Intelligence agent design**:  
+The code demonstrates a "Vacuum Cleaner kind of system" working based on all types of agents:  
 - Simple Reflex Agent  
 - Model-Based Reflex Agent  
 - Goal-Based Agent  
