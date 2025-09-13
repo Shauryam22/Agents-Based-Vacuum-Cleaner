@@ -37,4 +37,4 @@ The code demonstrates a "Vacuum Cleaner kind of system" working based on all typ
 Run the script directly:
 
 ```bash
-python agents_simulation.py
+python cleaner_visualiser.py
