@@ -12,7 +12,7 @@ The code demonstrates concepts from **Artificial Intelligence agent design**:
 ---
 
 ## 🗂 Project Structure
-- **environment class**: Defines the 4x4 grid world with dirt (`D`), clean (`C`), and blocked (`#`) cells. Handles agent movement, cleaning actions, and performance measurement.  
+- **environment class**: Defines any nxn grid world with dirt (`D`), clean (`C`), and blocked (`#`) cells. Handles agent movement, cleaning actions, and performance measurement.  
 - **Agent classes**:
   - `Simple_reflex`: Acts only based on current percept.  
   - `Model_based`: Maintains an internal model of the environment.  
