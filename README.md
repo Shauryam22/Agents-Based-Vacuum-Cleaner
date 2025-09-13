@@ -37,7 +37,7 @@ The code demonstrates a "Vacuum Cleaner kind of system" working based on all typ
 
 
 ## 🚀 Usage
-Run the script directly:
+Run the script directly on Powershell:
 ```bash
 git clone https://github.com/Shauryam22/Vacuum_cleaner.git
 cd Vacuum_cleaner
