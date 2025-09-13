@@ -32,9 +32,13 @@ The code demonstrates a "Vacuum Cleaner kind of system" working based on all typ
 4. The environment updates, assigns a **performance measure**, and continues until all cells are clean.  
 
 ---
+## Output Example
+<img width="873" height="374" alt="image" src="https://github.com/user-attachments/assets/97a17dbb-96b9-4e32-8674-b4ee8694a8d3" />
+
 
 ## 🚀 Usage
 Run the script directly:
-
 ```bash
+git clone https://github.com/Shauryam22/Vacuum_cleaner.git
+cd Vacuum_cleaner
 python cleaner_visualiser.py
