@@ -1,5 +1,5 @@
 # AI Agents Simulation – Vacuum Cleaner World
-
+<!-- RESUME: ADD -->
 This project simulates different types of **AI agents** in a simple **grid-based environment** where the agent must clean dirty cells (`D`), avoid walls (`#`), and try to maximize performance.  
 
 The code demonstrates a "Vacuum Cleaner kind of system" working based on all types of agents:  
